@@ -1,0 +1,1 @@
+Apenas testando como será os novos conceitos de funções Arrow. <strong>Em JavaScript</strong>
