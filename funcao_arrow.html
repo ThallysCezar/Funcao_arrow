@@ -8,8 +8,14 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
         <!-- Your custom script here -->
     <script type="text/babel">
-        const getMessage = () => "Hello World";
-        document.getElementById('output').innerHTML = getMessage();
+        
+        let quadrado = function(x = 5) {
+            return x * x
+        }
+
+        document.write( quadrado(3) ) 
+
+
     </script>
 </head>
 <body>
